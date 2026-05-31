@@ -1,139 +1,226 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Belial Gaming 2026</title>
 
-<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<header>
-    <nav>
-        <div class="logo">
-            <img src="assets/logo.png" alt="Belial Gaming">
-        </div>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
 
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobre">Nosotros</a></li>
-            <li><a href="#torneos">Torneos</a></li>
-            <li><a href="#equipo">Equipo</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
-</header>
+<div class="container">
 
-<section id="inicio" class="hero">
+<a class="navbar-brand logo" href="#">
+BLG
+</a>
 
-    <div class="overlay"></div>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
 
-    <div class="hero-content">
-        <h1>BELIAL GAMING 2026</h1>
-        <p>Competimos. Crecemos. Dominamos.</p>
+<div class="collapse navbar-collapse" id="menu">
 
-        <a href="https://discord.gg/TU_DISCORD" class="btn">
-            Únete a Discord
-        </a>
-    </div>
+<ul class="navbar-nav ms-auto">
 
-</section>
+<li class="nav-item">
+<a class="nav-link" href="#about">Nosotros</a>
+</li>
 
-<section id="sobre">
+<li class="nav-item">
+<a class="nav-link" href="#teams">Equipos</a>
+</li>
 
-    <h2>Sobre Nosotros</h2>
+<li class="nav-item">
+<a class="nav-link" href="#tournaments">Torneos</a>
+</li>
 
-    <p>
-        Belial Gaming es una organización enfocada en el desarrollo competitivo
-        de jugadores de Dota 2 y esports.
-        Más de 6 años formando equipos, comunidades y torneos.
-    </p>
+<li class="nav-item">
+<a class="nav-link" href="#contact">Contacto</a>
+</li>
 
-</section>
+</ul>
 
-<section id="torneos">
+</div>
 
-    <h2>Torneos Activos</h2>
+</div>
 
-    <div class="cards">
+</nav>
 
-        <div class="card">
-            <h3>BLG League Tour 6</h3>
-            <p>Temporada Oficial 2026</p>
-        </div>
+<section class="hero">
 
-        <div class="card">
-            <h3>Dota 2 Open Series</h3>
-            <p>Clasificatorias Abiertas</p>
-        </div>
+<div class="overlay"></div>
 
-        <div class="card">
-            <h3>Community Cup</h3>
-            <p>Torneo Amateur</p>
-        </div>
+<div class="hero-content">
 
-    </div>
+<h1>BELIAL GAMING</h1>
 
-</section>
+<h2>2026</h2>
 
-<section id="equipo">
+<p>
+Más de 6 años formando equipos, organizando torneos y desarrollando talento competitivo.
+</p>
 
-    <h2>Equipo Principal</h2>
+<div class="hero-buttons">
 
-    <div class="team-grid">
+<a href="https://discord.gg/" class="btn-red">
+UNIRSE A DISCORD
+</a>
 
-        <div class="player">
-            <img src="assets/team.jpg">
-            <h3>Carry</h3>
-        </div>
+<a href="https://kick.com/belial-gaming" class="btn-dark">
+VER STREAM
+</a>
 
-        <div class="player">
-            <img src="assets/team.jpg">
-            <h3>Mid</h3>
-        </div>
+</div>
 
-        <div class="player">
-            <img src="assets/team.jpg">
-            <h3>Offlane</h3>
-        </div>
-
-        <div class="player">
-            <img src="assets/team.jpg">
-            <h3>Support</h3>
-        </div>
-
-        <div class="player">
-            <img src="assets/team.jpg">
-            <h3>Hard Support</h3>
-        </div>
-
-    </div>
+</div>
 
 </section>
 
-<section id="contacto">
+<section class="stats">
 
-    <h2>Contacto</h2>
+<div class="container">
 
-    <p>Discord: Belial Gaming</p>
+<div class="row text-center">
 
-    <p>Email: contacto@belialgaming.com</p>
+<div class="col-md-3">
+<h3>6+</h3>
+<p>Años</p>
+</div>
+
+<div class="col-md-3">
+<h3>500+</h3>
+<p>Jugadores</p>
+</div>
+
+<div class="col-md-3">
+<h3>100+</h3>
+<p>Torneos</p>
+</div>
+
+<div class="col-md-3">
+<h3>20+</h3>
+<p>Equipos</p>
+</div>
+
+</div>
+
+</div>
 
 </section>
 
-<footer>
+<section id="about" class="section-dark">
 
-    <p>
-        © 2026 Belial Gaming - Todos los derechos reservados.
-    </p>
+<div class="container">
+
+<h2>¿Quiénes Somos?</h2>
+
+<p>
+Belial Gaming es una organización enfocada en esports, comunidades competitivas y desarrollo de jugadores de Dota 2.
+</p>
+
+</div>
+
+</section>
+
+<section id="teams" class="section-black">
+
+<div class="container">
+
+<h2>Nuestros Equipos</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="team-card">
+<h3>Main Roster</h3>
+<p>Equipo competitivo principal.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="team-card">
+<h3>Academy</h3>
+<p>Desarrollo de talentos.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="team-card">
+<h3>Community</h3>
+<p>Jugadores de la comunidad.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="tournaments" class="section-dark">
+
+<div class="container">
+
+<h2>Torneos Activos</h2>
+
+<div class="row">
+
+<div class="col-md-4">
+<div class="tournament-card">
+<h3>BLG League Tour 6</h3>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="tournament-card">
+<h3>Open Qualifier</h3>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="tournament-card">
+<h3>Community Cup</h3>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<div class="container">
+
+<h3>BELIAL GAMING</h3>
+
+<p>
+Discord · Kick · Twitch · YouTube
+</p>
+
+<p>
+© 2026 Belial Gaming
+</p>
+
+</div>
 
 </footer>
 
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+
 </html>
